@@ -1,0 +1,15 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jetify-com/devbox/0.14.2/.schema/devbox.schema.json",
+  "packages": [
+    "gemini-cli@latest",
+    "nodejs_22@latest",
+    "yarn@latest"
+  ],
+  "shell": {
+    "init_hook": [
+      "cd ./workspace"
+    ],
+    "scripts": {
+    }
+  }
+}
