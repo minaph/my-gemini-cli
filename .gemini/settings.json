@@ -1,0 +1,11 @@
+{
+  "selectedAuthType": "oauth-personal",
+  "mcpServers": {
+    "gtasks": {
+      "command": "/Path/to/this/Project/.devbox/nix/profile/default/bin/node",
+      "args": [
+        "/Path/to/this/Project/gtasks-mcp/dist/index.js"
+      ]
+    }
+  }
+}
