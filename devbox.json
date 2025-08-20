@@ -10,6 +10,8 @@
       "cd ./workspace"
     ],
     "scripts": {
+      "auth": "cd /Users/life_mac_43/Projects/my-gemini-cli/gtasks-mcp && yarn && yarn start auth",
+      "start": "cd /Users/life_mac_43/Projects/my-gemini-cli/workspace && gemini --yolo"
     }
   }
 }
