@@ -1,17 +1,20 @@
 {
   "$schema": "https://raw.githubusercontent.com/jetify-com/devbox/0.14.2/.schema/devbox.schema.json",
   "packages": [
-    "gemini-cli@latest",
     "nodejs_22@latest",
     "yarn@latest"
   ],
+  "env": {
+    "PROJECT_ROOT": "/home/minaph/projects/my-gemini-cli",
+    "BROWSER":      "termux-open-url %s"
+  },
   "shell": {
     "init_hook": [
-      "cd ./workspace"
+      "cd $PROJECT_ROOT/workspace"
     ],
     "scripts": {
-      "auth": "cd /Users/life_mac_43/Projects/my-gemini-cli/gtasks-mcp && yarn && yarn start auth",
-      "start": "cd /Users/life_mac_43/Projects/my-gemini-cli/workspace && gemini --yolo"
+      "auth":  "cd $PROJECT_ROOT/gtasks-mcp && yarn && yarn start auth",
+      "start": "cd $PROJECT_ROOT/workspace && gemini --yolo"
     }
   }
 }

@@ -1,57 +1,9 @@
 {
   "lockfile_version": "1",
   "packages": {
-    "gemini-cli@latest": {
-      "last_modified": "2025-08-11T16:06:55Z",
-      "resolved": "github:NixOS/nixpkgs/4e942f9ef5b35526597c354d1ded817d1c285ef1#gemini-cli",
-      "source": "devbox-search",
-      "version": "0.1.18",
-      "systems": {
-        "aarch64-darwin": {
-          "outputs": [
-            {
-              "name": "out",
-              "path": "/nix/store/9a6sq7wmwgdxabzlk7791g5cab896a1i-gemini-cli-0.1.18",
-              "default": true
-            }
-          ],
-          "store_path": "/nix/store/9a6sq7wmwgdxabzlk7791g5cab896a1i-gemini-cli-0.1.18"
-        },
-        "aarch64-linux": {
-          "outputs": [
-            {
-              "name": "out",
-              "path": "/nix/store/019wbdhyhspjbwz3ikj9dsrwjnphk5i6-gemini-cli-0.1.18",
-              "default": true
-            }
-          ],
-          "store_path": "/nix/store/019wbdhyhspjbwz3ikj9dsrwjnphk5i6-gemini-cli-0.1.18"
-        },
-        "x86_64-darwin": {
-          "outputs": [
-            {
-              "name": "out",
-              "path": "/nix/store/gvkh3glzilfkgpkbc1ih37lw2jw7w3gc-gemini-cli-0.1.18",
-              "default": true
-            }
-          ],
-          "store_path": "/nix/store/gvkh3glzilfkgpkbc1ih37lw2jw7w3gc-gemini-cli-0.1.18"
-        },
-        "x86_64-linux": {
-          "outputs": [
-            {
-              "name": "out",
-              "path": "/nix/store/jdh21afmi9vijcnaksgns7plg460llyw-gemini-cli-0.1.18",
-              "default": true
-            }
-          ],
-          "store_path": "/nix/store/jdh21afmi9vijcnaksgns7plg460llyw-gemini-cli-0.1.18"
-        }
-      }
-    },
     "github:NixOS/nixpkgs/nixpkgs-unstable": {
-      "last_modified": "2025-07-20T07:42:04Z",
-      "resolved": "github:NixOS/nixpkgs/7c688a0875df5a8c28a53fb55ae45e94eae0dddb?lastModified=1752997324&narHash=sha256-vtTM4oDke3SeDj%2B1ey6DjmzXdq8ZZSCLWSaApADDvIE%3D"
+      "last_modified": "2025-09-19T06:08:23Z",
+      "resolved": "github:NixOS/nixpkgs/12bd230118a1901a4a5d393f9f56b6ad7e571d01?lastModified=1758262103&narHash=sha256-aBGl3XEOsjWw6W3AHiKibN7FeoG73dutQQEqnd%2FetR8%3D"
     },
     "nodejs_22@latest": {
       "last_modified": "2025-05-31T03:30:20Z",
