@@ -4,13 +4,9 @@
     "nodejs_22@latest",
     "yarn@latest"
   ],
-  "env": {
-    "PROJECT_ROOT": "/home/minaph/projects/my-gemini-cli",
-    "BROWSER":      "termux-open-url %s"
-  },
   "shell": {
     "init_hook": [
-      "cd $PROJECT_ROOT/workspace"
+      "export $(grep -v '^\\s*#' .env | xargs)"
     ],
     "scripts": {
       "auth":  "cd $PROJECT_ROOT/gtasks-mcp && yarn && yarn start auth",
