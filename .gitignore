@@ -1,2 +1,4 @@
 .DS_Store
 .env
+gtasks-mcp
+workspace/.gemini/settings.json

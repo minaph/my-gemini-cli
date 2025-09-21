@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "gtasks": {
+      "command": "PROJECT_ROOT/.devbox/nix/profile/default/bin/node",
+      "args": [
+        "PROJECT_ROOT/gtasks-mcp/dist/index.js"
+      ]
+    }
+  }
+}
