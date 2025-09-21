@@ -10,7 +10,7 @@
     ],
     "scripts": {
       "auth":  "cd $PROJECT_ROOT/gtasks-mcp && yarn && yarn start auth",
-      "start": "cd $PROJECT_ROOT/workspace && gemini --yolo"
+      "start": "./install.sh && cd $PROJECT_ROOT/workspace && gemini --yolo"
     }
   }
 }
