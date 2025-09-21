@@ -48,6 +48,4 @@ echo ""
 echo "🎉 セットアップが完了しました！"
 echo "   使用したPROJECT_ROOT: $PROJECT_ROOT"
 echo "   生成されたファイル: $SETTINGS_OUTPUT"
-echo ""
-echo "💡 使用方法:"
-echo "   Gemini CLI で $SETTINGS_OUTPUT を設定ファイルとして使用してください。"
+
