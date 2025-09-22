@@ -6,7 +6,6 @@
   ],
   "shell": {
     "init_hook": [
-      "export $(grep -v '^\\s*#' .env | xargs)"
     ],
     "scripts": {
       "auth":  "cd $PROJECT_ROOT/gtasks-mcp && yarn && yarn start auth",
