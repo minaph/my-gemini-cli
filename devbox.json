@@ -6,6 +6,9 @@
   ],
   "shell": {
     "init_hook": [
+      "set -a",
+      ". ./.env",
+      "set +a"
     ],
     "scripts": {
       "auth":  "cd $PROJECT_ROOT/gtasks-mcp && yarn && yarn start auth",
